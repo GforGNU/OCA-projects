@@ -1,0 +1,184 @@
+/*NavBar Start*/
+.navbar {
+	height: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#navbarSupportedContent .navbar-nav a {
+	color: grey;
+}
+
+#navbarSupportedContent a {
+	font-size: 14pt;
+	
+	font-weight: lighter;
+}
+#navbarSupportedContent .login-container .nav-link{
+	color: grey;
+}
+/*navbar end*/
+
+/*Hero start*/
+.jumbotron {
+	background-image: url(Hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+.jumbotron .container {
+	margin: auto;
+	margin-top: 170px;
+}
+
+.jumbotron .container h1 {
+	font-size: 60pt;
+	color: black;
+	align-content: center;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+
+.jumbotron .container p {
+	font-size: 15pt;
+	color: grey;
+	align-content: center;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-left: 100px;
+}
+/*Hero end*/
+
+
+
+/*section1 start*/
+
+.section1 {
+	margin-bottom: 60px;
+}
+.Content-Section-1 h3 {
+	text-align: center;
+	size: 40pt;
+	width: 50%;
+	margin: auto;
+
+
+}
+
+.section1 .months h2 {
+	text-align: center;
+	align-content: center;
+	padding-top: 80px;
+
+}
+
+
+
+.Content-Section-1 p {
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	padding-top: 10px;
+	font-size: 15pt;
+	color: #D3D3D3;
+}
+
+.months .nav {
+	padding-top: 50px;
+	margin:auto;
+}
+
+.skillspill {
+	padding-top: 10px;
+}
+#skills {
+	text-align: left;
+}
+
+#skills-list {
+	text-align: left;
+	padding-left: 3;
+}
+
+/*section1 end*/
+
+/*section2 start*/
+
+.section2 {
+	background-color: #11cbd7;
+}
+.section2>.container {
+	padding-top: 50px;
+
+	
+}
+
+.container .row {
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.container .row .col h3 , p {
+	padding-left: 30px;
+	padding-top: 40px;
+
+}
+
+.container .row .col  p {
+	
+	padding-top: 30px;
+	width: 70%;
+
+}
+/*section 2 end */
+
+
+footer div {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: auto;
+	
+
+	
+}
+
+footer div #icons {
+	
+	width: 350px;
+	padding: 30px;
+	margin: 20px;
+	}
+footer div #icons .fa {
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	}
+
+/*PROJECTS*/
+
+.projects  .container {
+	margin-top: 100px;
+	 position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  }
+
+  .container img {
+  	 opacity: 0.4;
+  }
+.container .row .col h3 {
+  	padding-left: 5px;
+  	
+  }

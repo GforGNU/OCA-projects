@@ -1,0 +1,404 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #4e4e4e;
+}
+
+/*NavBar Start*/
+.navbar {
+	height: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+#navbarSupportedContent .navbar-nav a {
+	color: grey;
+	align-content: center;
+}
+#navbarSupportedContent .navbar-nav h4 {
+	color: grey;
+	align-content: center;
+	margin-bottom: 0;
+	padding-top: 7px;
+}
+#navbarSupportedContent a {
+	font-size: 14pt;
+	font-weight: lighter;
+
+}
+#navbarSupportedContent .login-container .nav-link{
+	color: grey;
+}
+/*navbar end*/
+
+/*Hero start*/
+.jumbotron {
+	background-image: url(Hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+.jumbotron .container {
+	margin: auto;
+	margin-top: 170px;
+}
+
+.jumbotron .container h1 {
+	font-size: 60pt;
+	color: black;
+	align-content: center;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+
+.jumbotron .container #hero-para {
+	font-size: 15pt;
+	color: grey;
+	align-content: center;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 100px;
+}
+/*Hero end*/
+
+
+
+/*section1 start*/
+
+.section1 {
+	margin-bottom: 60px;
+}
+.Content-Section-1 h3 {
+	text-align: center;
+	size: 40pt;
+	width: 50%;
+	margin: auto;
+
+
+}
+
+.section1 .months h2 {
+	text-align: center;
+	align-content: center;
+	padding-top: 80px;
+
+}
+
+
+
+.Content-Section-1 p {
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	padding-top: 10px;
+	font-size: 15pt;
+	color: #D3D3D3;
+}
+
+.months .nav {
+	padding-top: 50px;
+	margin:auto;
+}
+
+.skillspill {
+	padding-top: 10px;
+}
+#skills {
+	text-align: left;
+}
+
+#skills-list {
+	text-align: left;
+	padding-left: 3;
+}
+
+/*section1 end*/
+
+/*section2 start*/
+
+.section2 {
+	background-color: #11cbd7;
+}
+.section2>.container {
+	padding-top: 50px;
+
+	
+}
+
+.container .row {
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.container .row .col h3 , p {
+	padding-left: 30px;
+	padding-top: 170px;
+
+
+}
+
+.container .row .col  p {
+	
+	padding-top: 30px;
+	width: 70%;
+
+
+}
+/*section 2 end */
+
+
+
+/*PROJECTS*/
+
+
+.projects  .container {
+	
+	 position: relative;
+  text-align: center;
+  color: black;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  }
+
+  .container img {
+  	 opacity: 0.8;
+  }
+.container .row .col h3 {
+  	padding-left: 5px;
+  	
+  }
+
+article .container p {
+	padding-top: 50px;
+	padding-left: 0px;
+	font-size: 18pt;
+}
+
+.projects-header  {
+  	height: 100px;
+  	margin-top: 200px;
+  	margin-bottom: 100px;
+  	text-align: center;
+  	align-content: center;
+  	margin-left: 50px;
+  	margin-right: 50px;
+  }
+
+  .projects-header h1 {
+  	align-content: center;
+  	margin-left: 50px;
+  	margin-right: 50px;
+
+  	font-size: 60pt;
+	padding-bottom: 10px;
+	padding-left: 100px;
+
+  }
+
+
+
+
+
+.container {
+  position: relative;
+  
+}
+
+.img-thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+.overlay img{
+
+  opacity: 0.3;
+  transition: .5s ease;
+  background-color: #9c9c9c;
+}
+
+.projects .col:hover img{
+  opacity: 1;
+
+  
+}
+.col:hover .centered  h5 {
+  opacity: 1;
+  background-color: #4e4e4e;
+  color: white;
+  
+}
+.col:hover .centered  h3 {
+  opacity: 1;
+  
+  color: white;
+  
+}
+
+.centered {
+
+  color: #4e4e4e;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+  /*sample*/
+  .project {
+	background: linear-gradient(to top,  #f9f9f9 20%, white 50%, white 30%); 
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.projects-header {
+	margin-top: 50px;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+  .projects-header h1 {
+  	text-align: center;
+  	align-content: center;
+  	 padding-left: 0px;
+
+
+  }
+  .img-fluid {
+  	width: 100%
+
+
+  }
+   article p {
+  	
+  	padding-bottom: 30px;
+  }
+  article #para {
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+  }
+  article h2 {
+  	padding-bottom: 30px;
+  }
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+  }
+   article #para2 {
+  	margin-bottom: 0;
+  	padding-bottom: 50px;
+  }
+ article {
+ 	align-content: center;
+ 	text-align: center;
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+ }
+.project  {
+	background-image:
+    linear-gradient(
+      to right, 
+      #f9f9f9,
+      #f9f9f9 15%,
+      #ffffff 15%,
+      #ffffff 85%,
+      #f9f9f9 85%
+    );
+}
+
+
+
+ /*Contact Form*/
+
+ form {
+ 	width: 60%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+ form button {
+ 	background-color: grey;
+ }
+ .my-4 p{
+ 	height: 80px;
+ 	padding: 5px;
+ 	padding-top: 10px;
+
+ }
+
+
+ .col .md-4 {
+ 	margin-top: 10px;
+ 	height: 80px;
+
+ }
+
+ 
+
+
+
+ @media only screen and (max-width: 575.98px) {
+
+  /* For mobile phones: */
+   [class*="col-"] {
+    width: 100%;
+
+  }
+  [class*="nav"] {
+    width: 100%;
+    display: inline;
+    
+  }
+
+
+ .jumbotron .container h1 {
+    padding-left: 0;
+    font-size: 20pt;
+
+  }
+  .jumbotron .container #hero-para {
+    padding-left: 0;
+    
+
+  }
+ .Content-Section-1 h3{
+    
+    font-size: 12pt;
+
+  }
+  
+.section2 > .container {
+	display: block;
+}
+
+.projects-header h1 {
+	font-size: 20pt;
+}
+.container .row .col h3{
+	font-size: 12pt;
+	padding-top: 50px;
+}
+.container .row .col h5{
+	font-size: 10pt;
+}
+
+article .container p{
+	font-size: 12pt;
+}
+.text-center {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}

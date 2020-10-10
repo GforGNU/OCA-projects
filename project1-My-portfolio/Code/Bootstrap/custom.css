@@ -1,0 +1,208 @@
+body {
+
+}
+.navbar {
+	height: 100px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+}
+.navbar .navbar-brand {
+	font-size: 18pt;
+	letter-spacing: 2pt;
+}
+
+#navbarSupportedContent .navbar-nav a {
+	color: black;
+}
+#navbarSupportedContent {
+	padding-left: 600px;
+
+}
+#navbarSupportedContent a {
+	font-size: 14pt;
+	
+	font-weight: lighter;
+}
+#navbarSupportedContent .login-container .nav-link{
+	color: #11cbd7;
+
+}
+
+
+
+.jumbotron {
+	background-image: url(one.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+.jumbotron .container {
+	margin: auto;
+	margin-top: 170px;
+
+
+	
+}
+.jumbotron .container h1 {
+	font-size: 40pt;
+	color: white;
+	align-content: center;
+	padding-bottom: 30px;
+	padding-left: 100px;
+}
+
+.jumbotron .form-inline {
+	padding: 25px;
+	background-color: white;
+	font-size: 15pt;
+
+
+
+}
+
+.jumbotron .form-inline .custom-select {
+	border-color: white; 
+}
+	
+.jumbotron .form-inline .form-control {
+	border-color: white; 
+	font-size: 15pt;
+}
+	
+.jumbotron .form-row {
+
+	padding: 25px;
+	background-color: white;
+	font-size: 15pt;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.jumbotron .mr-sm-2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 0;
+	border-color: white;
+	font-size: 15pt;
+
+}
+.jumbotron .col-sm {
+	margin: 0;
+	
+}
+.jumbotron .col-sm button {
+	background-color: #11cbd7;
+	border-color: #11cbd7;
+	width: 50%;
+	float: right;
+}
+
+/*
+.jumbotron table {
+	width: 100%;
+
+
+}
+
+.jumbotron table td .mr-sm-2{
+	width: 200px; 
+	
+
+}
+*/
+.jumbotron p {
+	text-align: center;
+	font-size: 15pt;
+	padding-top: 10px;
+	color: white;
+}
+
+.register  {
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+
+	
+}
+
+.register button {
+	background-color: #11cbd7;
+	border-color: #11cbd7;
+} 
+
+/*Section 2*/
+
+.section2 {
+	
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	height: 70%;
+
+}
+
+.section2 .col h2 {
+	color: #11cbd7;
+	font-size: 30pt;
+	word-spacing: 2pt;
+
+}
+
+.section2 .col p {
+	color: grey;
+	line-height: 25pt;
+}
+
+.section2 .col button {
+	margin-left: 0;
+	background-color: #11cbd7;
+	border-color: #11cbd7;
+}
+
+.section2 .col img {
+	height: 400px;
+}
+
+/*Section 2*/
+
+.Section3  {
+	width: 80%;
+	align-content: center;
+	margin-top: 70px;
+	margin-left: auto;
+
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.card-body p {
+	color: grey;
+
+}
+
+.card-body button {
+	text-decoration: none;
+	color: #11cbd7;
+}
+
+.fab {
+	color: grey;
+}
+
+}
+
+ @media (max-width: 575.98px)  {
+        
+.jumbotron h1 {
+    font-size: 20px;
+}
+  .nav .Contact {
+    float: right;
+    display: inline;
+  }
