@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web to note your missions -To Do List- so you can add Task on it and remove Task from it. You can do some mathmetical operation -Calculator- on our website. To do All this you Sholud Sign Up With our Sign up page first">
+    <meta name="keywords" content="Sign up page , To Do List , Calculator, HTML , CSS , Javascript , JS">
+    <meta name="author" content="Firas Diab, Lojain Nahhas , Dania Abutair">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handy Home Page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./Nav&footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <!-- Header Start Here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <a class="navbar-brand" href="./index.html"><img id="logo" src="./Image/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./Todo.html">To Do</a>
+            </li>
+            <li id="verline"><h4><span> | </span></h4></li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Calculator.html">Calculator</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Header End Here -->
+    <!-- Welcome Start Here -->
+    <h1 id="handy">Handy</h1>
+      <div id="image">
+        <div id="text">
+            <h1>HANDY</h1>
+            <p>Your Ultimate Personal Assistant!
+            </p>
+        </div>
+        <div id="sign">
+            <h3>Sign Up For Free</h3>
+            <input class="signInput"  type="text" placeholder="User Name" id="name">
+            <p id="nameValidation">Name must have more than 3 letters</p>
+            <input class="signInput"  type="text" placeholder="User Email"  id="email">
+            <p id="emailValidation">invalid email</p>
+             <form id="form">
+              <label id="birth">Brith Date : </label>
+                <select id="days">
+                  <option value="Day" selected>Day</option>
+                </select>
+                <select id="month">
+                  <option value="Month" selected>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <select id="year">
+                  <option value="Year" selected>Year</option>
+                  </select>
+                  <script>
+                    $(function() {
+
+                    //populate our years select box
+                    for (i = new Date().getFullYear(); i >= 1950; i--){
+                        $('#year').append($('<option />').val(i).html(i));
+                    }
+                    //populate our days select box
+                    for (i = 1; i <= 31; i++){
+                       $('#days').append($('<option />').val(i).html(i));
+                     }
+                    //populate our Days select box
+                    updateNumberOfDays(); 
+
+                    
+                });
+
+                  
+                  </script>
+              </form>
+              <input class="signInput"  type="text" placeholder="Phone Number" id="phone">
+              <p id="numberValidation"> Invalid Phone Number</p>
+              <input class="signInput"  type="password" placeholder="Password" id="pass">
+              <p id="pass1Validation">Password is too short</p>
+              <input class="signInput"  type="password" placeholder="Confirm Password" id="pass2"><br>
+              <p id="pass2Validation">Passwords do not match</p>
+              <input type="checkbox" class="checbox" id="CheckId"
+              > <label> I agree to the terms and conditions</label><br>
+              <input  type="submit" value ="Local Storage" class="button" id="local" disabled="disabled" onclick="locStorage1()">
+              <input type="submit" value ="Session Storage" class="button" id="session" disabled="disabled" onclick="sesStorage()">
+              <input type="button" value ="Clear" class="button" id="clear">
+        </div>
+      </div>
+      <script type="text/javascript" src="./index.js"></script>
+      <div id="formatting">
+        
+        <!-- formatting the home page start -->
+        <label for="favcolor" class="formatText">Select footer color:</label>
+        <input type="color" id="ChangeColor" name="ChangeColor" >
+        
+         <label for="font" class="formatText">Select Text Font Family</label>
+            <select name="fonts" id="fonts" >
+              <option value = "Times New Roman">Times New Roman</option>
+              <option value="Impact ">Impact</option>
+              <option value="Helvetica">Helvetica</option>
+            </select>
+            <label for="font-size" class="formatText">choose Font Size</label>
+            <input type="range" min="12" max="72" value="16" id="font-size" />
+            <script>
+              //background color
+              $("#ChangeColor").change(function(){
+              var clr = $(this).val();
+              $("footer").css("background-color",clr);
+              });
+              //fontfamily
+              $('#fonts').change(function(){
+                var fnt = $(this).val();
+                $("body").css("font-family", fnt);
+              })
+              //fontsize
+              var slider = document.getElementById('font-size');
+              slider.addEventListener('input', function() {
+              var size = slider.value;
+              document.body.style.fontSize = size + "px";
+              });
+            </script>
+             </div>
+              <!-- formatting the home page end -->
+      <!-- Welcome End Here -->
+</body>
+<hr id="hrfoot">
+<!-- Footer Start Here -->
+<footer class="page-footer font-small bg-black">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Powered by: Lojain | Dania | Firas.
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer End Here -->
+</html>

@@ -1,0 +1,47 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Nav Bar Style Start*/
+.bg-black{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #000000;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+ .navbar-nav {
+    margin-left: 80%;
+    width: 20%;
+}
+.navbar-nav a{
+    color: #F4F7FA !important;
+    font-size: 1.2rem;
+}
+#navbarNav .navbar-nav #verline{
+    padding-top: 2.7%;
+}
+button .navbar-toggler-icon{
+    color: #F4F7FA;
+    background-color: #F4F7FA;
+}
+#logo {
+    width: 5em;
+    height: 5em;;
+}
+li span{
+    color: #FEE440;
+}
+/* Nav Bar Style End Here*/
+
+
+/* Footer Start Here */
+#hrfoot{
+    border: 1px solid #FEE440;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-bottom: 0;
+}
+
+/* Footer End Here*/
